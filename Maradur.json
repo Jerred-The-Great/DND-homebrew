@@ -2,62 +2,60 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "MonsterMan",
-				"abbreviation": "NPotMB",
-				"full": "Path of the Monster Barbarian",
-				"url": "https://drive.google.com/file/d/1RLnEEXjH67Wf3AmqzPjjy1G6JK4hZIau/view",
+				"json": "Insanity",
+				"abbreviation": "WF",
+				"full": "Jerred The Great's compendium",
 				"authors": [
-					"Nimademe"
+					"Jerred The Great"
 				],
 				"convertedBy": [
-					"DXHHH101"
+					"Jerred The Great"
 				],
 				"version": "1.0"
 			}
 		],
-		"dateAdded": 1643216127,
-		"dateLastModified": 1643675458,
-		"_dateLastModifiedHash": "d6ddeffd93"
+		"dateLastModified": 1706849065,
+		"_dateLastModifiedHash": "1706849065"
 	},
 	"subclass": [
 		{
-			"name": "Path of the Monster",
-			"source": "NimademeMonsterBarbarian",
-			"shortName": "Monster",
+			"name": "Path of the Maradur",
+			"source": "WorldForge",
+			"shortName": "Maradur",
 			"className": "Barbarian",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Path of the Monster|Barbarian||Monster|NimademeMonsterBarbarian|3",
-				"White Iron Will|Barbarian||Monster|NimademeMonsterBarbarian|6",
-				"Sword Iron Soul|Barbarian||Monster|NimademeMonsterBarbarian|10",
-				"Night Parade|Barbarian||Monster|NimademeMonsterBarbarian|14"
+				"Path of the Maradur|Barbarian||Maradur|WorldForge|3",
+				"Skewering|Barbarian||Maradur|WorldForge|6",
+				"Sword Iron Soul|Barbarian||Maradur|WorldForge|10",
+				"Night Parade|Barbarian||Maradur|WorldForge|14"
 			]
 		}
 	],
 	"subclassFeature": [
 		{
-			"name": "Path of the Monster",
-			"source": "NimademeMonsterBarbarian",
+			"name": "Path of the Maradur",
+			"source": "WorldForge",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Monster",
-			"subclassSource": "NimademeMonsterBarbarian",
+			"subclassShortName": "Maradur",
+			"subclassSource": "WorldForge",
 			"level": 3,
 			"entries": [
-				"A person can't escape death, and neither can they escape the Path of the Monster. You advance slowly and surely toward your enemy, their futile resistance unable to make you falter even a step. The fear they feel from the bottom of their heart is brought to rest by your weapon, another corpse for the pile.",
+				"A person can't escape death, and neither can they escape the Path of the Maradur. You advance slowly and surely toward your enemy, their futile resistance unable to make you falter even a step. The fear they feel from the bottom of their heart is brought to rest by your weapon, another corpse for the pile.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Black Iron Body|Barbarian||Monster|NimademeMonsterBarbarian|3"
+					"subclassFeature": "Black Iron Body|Barbarian||Maradur|WorldForge|3"
 				}
 			]
 		},
 		{
 			"name": "Black Iron Body",
-			"source": "NimademeMonsterBarbarian",
+			"source": "WorldForge",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Monster",
-			"subclassSource": "NimademeMonsterBarbarian",
+			"subclassShortName": "Maradur",
+			"subclassSource": "WorldForge",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -67,12 +65,12 @@
 			]
 		},
 		{
-			"name": "White Iron Will",
-			"source": "NimademeMonsterBarbarian",
+			"name": "Skewering",
+			"source": "WorldForge",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Monster",
-			"subclassSource": "NimademeMonsterBarbarian",
+			"subclassShortName": "Maradur",
+			"subclassSource": "WorldForge",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -81,11 +79,11 @@
 		},
 		{
 			"name": "Sword Iron Soul",
-			"source": "NimademeMonsterBarbarian",
+			"source": "WorldForge",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Monster",
-			"subclassSource": "NimademeMonsterBarbarian",
+			"subclassShortName": "Maradur",
+			"subclassSource": "WorldForge",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -95,25 +93,25 @@
 		},
 		{
 			"name": "Night Parade",
-			"source": "NimademeMonsterBarbarian",
+			"source": "WorldForge",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "Monster",
-			"subclassSource": "NimademeMonsterBarbarian",
+			"subclassShortName": "Maradur",
+			"subclassSource": "WorldForge",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, you are a fear that will never fade away, you're considered a monster of myth. While you're raging and you have all of your hit points, you gain the following features.",
+				"Starting at 14th level, you are a fear that will never fade away, you're considered a Maradur of myth. While you're raging and you have all of your hit points, you gain the following features.",
 				{
 					"type": "entries",
-					"name": "Monster of the Mountain",
+					"name": "Maradur of the Mountain",
 					"entries": [
 						"As a bonus action, you can deal {@dice 6d6} bludgeoning damage to a creature you're grappling or hurl it up to 60 feet in any direction except for upward."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Monster of the Plain",
+					"name": "Maradur of the Plain",
 					"entries": [
 						"As a bonus action, you can make a melee weapon attack against a creature that damaged you since the end of your last turn."
 					]
