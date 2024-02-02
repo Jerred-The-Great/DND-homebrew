@@ -1,0 +1,213 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Marauder",
+				"abbreviation": "PotM",
+				"full": "Path of the Marauder",
+				"authors": [
+					"Jerred The Great"
+				],
+				"convertedBy": [
+					"Jerred"
+				],
+				"version": "1.0",
+				"color": "750000",
+				"dateReleased": "2024-01-30"
+			}
+		],
+		"status": "ready",
+		"dateAdded": 1694137949,
+		"dateLastModified": 1694137949,
+		"_dateLastModifiedHash": "6fcfb42dc0"
+	},
+	"subclass": [
+		{
+			"name": "Path of the Marauder",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 1,
+			"shortName": "Marauder",
+			"subclassFeatures": [
+				"Path of the Marauder|Barbarian||Marauder|WorldForge|3",
+				"Glory Of The Hunt|Barbarian||Marauder|WorldForge|6",
+				"Brutalist|Barbarian||Marauder|WorldForge|10",
+				"Unwavering Anger|Barbarian||Marauder|WorldForge|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the Marauder",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Marauder",
+			"subclassSource": "WorldForge",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Skewering|Barbarian|PHB|Marauder|WorldForge|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Kabob|Barbarian|PHB|Marauder|WorldForge|3"
+				}
+			]
+		},
+		{
+			"name": "Skewering",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Marauder",
+			"subclassSource": "WorldForge",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Path of the Marauder feature}",
+				"Starting at 3rd level, when mounted, if you hit an attack with a lance or pike, you can attempt to grapple your target. keep them at the distance of the attack."
+			]
+		},
+		{
+			"name": "Kabob",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Marauder",
+			"subclassSource": "WorldForge",
+			"level": 3,
+			"entries": [
+				"{@i 3rd-level Path of the Marauder feature}",
+				"Starting at 3rd level, When you are within 5ft of a proned creature you can pin that creature into the ground. Make an attack roll on a success they are pinned into the ground requiring a DC=10+prof+STR athletics check."
+			]
+		},
+		{
+			"name": "Glory Of The Hunt",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 2,
+			"subclassShortName": "Marauder",
+			"subclassSource": "WorldForge",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Path of the Marauder feature}",
+				"At 6th level, you can use the momentum of your movement to deal more damage. While raging, you may use your bonus action to gain Comet's Momentum. This effect lasts until the end of your turn. You may use this feature a number of times equal to your proficiency modifier every time you activate a rage. During this time:",
+				{
+					"type": "list",
+					"items": [
+						"Any movement you make (walking, swimming, flying, or falling) does not provoke opportunity attacks.",
+						"All creatures within 5 feet of your path must succeed on a Strength saving throw or be pulled 10 feet in the same direction you are traveling.",
+						"If you take the {@action Attack} action after moving in a straight line, you may deal an additional {@damage 1d8} force damage for every 10ft you traveled. At 14th level this becomes {@dice 1d10} per 10ft."
+					]
+				}
+			]
+		},
+		{
+			"name": "Brutalist",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 2,
+			"subclassShortName": "Marauder",
+			"subclassSource": "WorldForge",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Path of the Marauder feature}",
+				"Beginning at 10th level, you gain the ability to further manipulate gravitational forces while raging. While raging, you may use your reaction in two ways:",
+				{
+					"type": "list",
+					"items": [
+						"When a creature within 10 feet of you is targeted by an attack, you can use your reaction to cause the attack to target you instead. For ranged attacks, the projectile is directed towards you. For melee attacks targeting a Large or smaller creature, they must succeed on a Strength saving throw or be pulled to a free space that puts you within their range, and the attack hits you instead.",
+						"You may use your reaction to halt a fall for you and a number of other creatures equal to your Constitution modifier (minimum of 1). You and the affected creatures stop mid-air until the end of your next turn, after which you all start falling anew."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unwavering Anger",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"page": 2,
+			"subclassShortName": "Marauder",
+			"subclassSource": "WorldForge",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Path of the Marauder feature}",
+				"At 14th level, you can increase your density further. If you choose to increase your density using the Variable Density feature, you may instead choose to increase your density five fold, expanding the radius of your gravity aura to 30 feet. All creatures within this radius at that time must make a Strength saving throw or be pulled 15ft towards you. You may also add your constitution modifier to the attack and damage rolls of your melee attacks. These effects last for one minute or until your rage ends. You may use this ability once and must then finish a long rest to be able to use it again.",
+				"If you fall at least 10 feet during this effect, you create a Meteor Impact. All creatures within 20 feet of you must succeed on a Dexterity saving throw or take {@damage 5d10} force damage, plus an additional {@damage 1d10} force damage for every 10 feet you fell. You are immune to the fall damage that this may cause to you."
+			]
+		}
+	],
+	"foundrySubclassFeature": [
+		{
+			"name": "Skewering",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassSource": "World Forge",
+			"subclassShortName": "Marauder",
+			"level": 3,
+			"system": {
+				"activation": {
+					"type": "bonus",
+					"cost": 1
+				}
+			}
+		},
+		{
+			"name": "Kabob",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassSource": "WorldForge",
+			"subclassShortName": "Marauder",
+			"level": 3
+		},
+		{
+			"name": "Glory Of The Hunt",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassSource": "WorldForge",
+			"subclassShortName": "Marauder",
+			"level": 6,
+			"system": {
+				"activation": {
+					"type": "bonus",
+					"cost": 1
+				}
+			}
+		},
+		{
+			"name": "Brutalist",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassSource": "WorldForge",
+			"subclassShortName": "Marauder",
+			"level": 10,
+			"system": {
+				"activation": {
+					"type": "reaction",
+					"cost": 1
+				}
+			}
+		},
+		{
+			"name": "Unwavering Anger",
+			"source": "WorldForge",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassSource": "WorldForge",
+			"subclassShortName": "Marauder",
+			"level": 14
+		}
+	]
+}
